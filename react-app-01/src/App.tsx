@@ -1,7 +1,13 @@
+import ClassComponent, {  } from "./components/ClassComponent";
+import { FunctionalComponent } from "./components/FunctionalComponent";
+import { Memo } from "./components/Memo";
+
 const App = () => {
   return (
     <div>
-      Learn React!
+      <ClassComponent/>
+      <FunctionalComponent/>
+      <Memo/>
     </div>
   );
 }

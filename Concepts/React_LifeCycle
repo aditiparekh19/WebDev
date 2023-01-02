@@ -1,0 +1,22 @@
+Lifecycle Methods => Mounting/Unmounting/Updating DOM
+Class Component -
+this.bind or use arrow function
+Functional Component -
+Doesn't need `this`
+
+Three phases in React-
+
+Mounting => Loads/Renders first time => ComponentDidMount => useEffect
+
+Updating => Update => ComponentDidUpdate => useEffect with pararameters
+
+Unmounting => Removing component => ComponentWillUnmount => return inside useEffect
+
+Constructor => Used before mounting 
+
+UseState => To change the state
+
+To improve the performance (optimization) (Stored in cache)
+UseMemo => To Memoize the value/result 
+useCallback => To Memoize the function
+memo(Child)
